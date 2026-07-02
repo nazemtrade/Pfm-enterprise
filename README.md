@@ -599,3 +599,193 @@ Private Enterprise Project
 
 در مرحله بعد، فقط اولین زیرمجموعه آن (**پوشه `docs` و فایل‌های داخل آن**) تولید خواهد شد و تا تکمیل آن وارد هیچ بخش دیگری از پروژه نخواهیم شد.
 ////////////*********////////////
+
+عالی. از این لحظه دقیقاً طبق برنامه پیش می‌رویم.
+
+**قانون پروژه:**
+
+* فقط روی **README.md** و زیرمجموعه‌های آن کار می‌کنیم.
+* تا زمانی که این بخش کامل نشود، وارد پوشه‌های `database`، `backend` و ... نمی‌شویم.
+
+---
+
+# Commit 0002
+
+## زیرمجموعه اول فایل README
+
+### مسیر فایل
+
+```text
+Pfm-enterprise/docs/README.md
+```
+
+---
+
+### محتوای کامل فایل
+
+```markdown
+# PaperFlower ERP Documentation
+
+## Documents Directory
+
+This folder contains all project documentation.
+
+The documents are written during the software development lifecycle.
+
+Every phase of the project has its own documentation.
+
+---
+
+# Documentation Structure
+
+01_Project_Charter.md
+
+02_Business_Requirements.md
+
+03_System_Requirements.md
+
+04_Feasibility_Study.md
+
+05_Project_Roadmap.md
+
+06_Architecture.md
+
+07_Database_Design.md
+
+08_UI_UX.md
+
+09_API_Documentation.md
+
+10_Testing.md
+
+11_Deployment.md
+
+12_User_Manual.md
+
+13_Admin_Manual.md
+
+14_Release_Notes.md
+
+---
+
+## Documentation Rules
+
+Every document has:
+
+Version
+
+Author
+
+Creation Date
+
+Last Update
+
+Status
+
+Revision History
+
+---
+
+## Versioning
+
+Version Format
+
+Major.Minor.Patch
+
+Example
+
+0.1.0
+
+0.2.0
+
+1.0.0
+
+---
+
+## Status Types
+
+Draft
+
+Review
+
+Approved
+
+Released
+
+Archived
+
+---
+
+## Language
+
+Persian
+
+English
+
+---
+
+## File Format
+
+Markdown
+
+PDF
+
+DOCX
+
+---
+
+## Development Standard
+
+IEEE Software Documentation Standard
+
+ISO Documentation Rules
+
+---
+
+## Project Owner
+
+NazemTrade
+
+---
+
+## Repository
+
+Pfm-enterprise
+
+---
+
+## End Of Document
+```
+
+---
+
+# وضعیت پروژه
+
+تا اینجا فقط این فایل‌ها ایجاد شده‌اند:
+
+```text
+Pfm-enterprise/
+
+README.md
+
+docs/
+    README.md
+```
+
+---
+
+## Commit بعدی (0003)
+
+در مرحله بعد فقط فایل زیر تولید خواهد شد:
+
+```text
+docs/
+
+01_Project_Charter.md
+```
+
+این فایل منشور رسمی پروژه خواهد بود و شامل اهداف، محدوده، ذی‌نفعان، بودجه، زمان‌بندی، ریسک‌ها، معیارهای موفقیت و ساختار مدیریتی پروژه است. تا تکمیل آن، فایل دیگری تولید نخواهد شد.
+
+
+،&&&&&&&&&&&&﷼﷼﷼﷼﷼﷼﷼﷼﷼﷼﷼&&&&&&&&&&&
+
