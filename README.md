@@ -789,4 +789,477 @@ docs/
 
 ،&&&&&&&&&&&&﷼﷼﷼﷼﷼﷼﷼﷼﷼﷼﷼&&&&&&&&&&&
 
+عالی. از این مرحله به بعد فقط **به‌ترتیب** پیش می‌رویم.
 
+---
+
+# Commit 0003
+
+## فایل
+
+```text
+Pfm-enterprise/docs/01_Project_Charter.md
+```
+
+---
+
+```markdown
+# Project Charter
+
+---
+
+## Document Information
+
+| Item | Value |
+|------|-------|
+| Project Name | PaperFlower ERP |
+| Repository | Pfm-enterprise |
+| Version | 0.1.0 |
+| Status | Approved |
+| Document Type | Project Charter |
+| Language | Persian / English |
+| Author | NazemTrade |
+| Framework | Laravel |
+| Database | PostgreSQL |
+| Mobile | Progressive Web App |
+
+---
+
+# 1. Project Title
+
+PaperFlower ERP
+
+Enterprise Resource Planning System
+
+for
+
+Paper Flower Manufacturing Company
+
+---
+
+# 2. Vision
+
+Create one integrated software platform capable of managing every business process of a paper flower manufacturing company from product design to worldwide sales.
+
+---
+
+# 3. Mission
+
+Develop a scalable ERP system that increases productivity, reduces operational costs, supports export activities, and provides intelligent decision-making tools.
+
+---
+
+# 4. Project Objectives
+
+• Production Management
+
+• Inventory Control
+
+• Warehouse Management
+
+• Sales Management
+
+• Customer Relationship Management
+
+• Accounting
+
+• Human Resources
+
+• Reporting
+
+• Artificial Intelligence
+
+• Mobile Access
+
+• Export Management
+
+---
+
+# 5. Business Goals
+
+Increase Production Capacity
+
+Reduce Waste
+
+Increase Profit
+
+Improve Customer Satisfaction
+
+Support International Sales
+
+Digital Transformation
+
+---
+
+# 6. Scope
+
+Included
+
+✔ Dashboard
+
+✔ Products
+
+✔ Customers
+
+✔ Orders
+
+✔ Inventory
+
+✔ Warehouse
+
+✔ Production
+
+✔ Accounting
+
+✔ Reports
+
+✔ Export
+
+✔ AI Assistant
+
+✔ Mobile PWA
+
+---
+
+Not Included
+
+Payroll Integration with Government Systems
+
+External Accounting Software
+
+Bank Core Systems
+
+---
+
+# 7. Deliverables
+
+Database
+
+Backend
+
+Frontend
+
+REST API
+
+Dashboard
+
+Reports
+
+Documentation
+
+Testing
+
+Deployment Guide
+
+User Manual
+
+Administrator Manual
+
+PWA Mobile Version
+
+---
+
+# 8. Stakeholders
+
+Project Owner
+
+NazemTrade
+
+Developer
+
+ChatGPT
+
+Future Developers
+
+System Administrators
+
+Sales Department
+
+Warehouse Department
+
+Production Department
+
+Management
+
+Customers
+
+---
+
+# 9. Technology Stack
+
+Backend
+
+Laravel
+
+PHP 8
+
+REST API
+
+Database
+
+PostgreSQL
+
+Frontend
+
+HTML5
+
+CSS3
+
+Bootstrap RTL
+
+JavaScript
+
+Mobile
+
+PWA
+
+Git
+
+GitHub
+
+---
+
+# 10. Development Methodology
+
+Agile
+
+Scrum
+
+Sprint Based
+
+Continuous Integration Ready
+
+---
+
+# 11. Coding Standards
+
+PSR
+
+MVC
+
+Repository Pattern
+
+SOLID
+
+REST
+
+---
+
+# 12. Security
+
+JWT Authentication
+
+Role Based Access Control
+
+Password Hash
+
+HTTPS
+
+Audit Log
+
+CSRF Protection
+
+Validation
+
+---
+
+# 13. Project Phases
+
+Phase 1
+
+Analysis
+
+Completed
+
+Phase 2
+
+Database
+
+In Progress
+
+Phase 3
+
+Frontend
+
+Pending
+
+Phase 4
+
+Backend
+
+Pending
+
+Phase 5
+
+Dashboard
+
+Pending
+
+Phase 6
+
+Production
+
+Pending
+
+Phase 7
+
+Accounting
+
+Pending
+
+Phase 8
+
+Reports
+
+Pending
+
+Phase 9
+
+Artificial Intelligence
+
+Pending
+
+Phase 10
+
+Testing
+
+Pending
+
+Phase 11
+
+Deployment
+
+Pending
+
+Phase 12
+
+Release
+
+Pending
+
+---
+
+# 14. Success Criteria
+
+Stable System
+
+Responsive UI
+
+Mobile Ready
+
+Secure Architecture
+
+Scalable Design
+
+High Performance
+
+Complete Documentation
+
+Source Code Versioning
+
+---
+
+# 15. Risks
+
+Schedule Delay
+
+Requirement Changes
+
+Technology Risks
+
+Database Performance
+
+Security Risks
+
+Integration Risks
+
+---
+
+# 16. Assumptions
+
+Continuous Development
+
+Git Repository Available
+
+Internet Access
+
+PostgreSQL Available
+
+Laravel Environment Available
+
+---
+
+# 17. Constraints
+
+Budget
+
+Development Time
+
+Hosting Resources
+
+Third-party Service Availability
+
+---
+
+# 18. Acceptance Criteria
+
+All modules implemented
+
+Database tested
+
+Reports validated
+
+Mobile version operational
+
+Documentation completed
+
+Version 1.0 Released
+
+---
+
+# Approval
+
+Project Owner
+
+NazemTrade
+
+Status
+
+Approved
+
+---
+
+End of Document
+```
+
+---
+
+## وضعیت مخزن
+
+اکنون ساختار مخزن به این صورت است:
+
+```text
+Pfm-enterprise/
+│
+├── README.md
+│
+└── docs/
+    │
+    ├── README.md
+    └── 01_Project_Charter.md
+```
+
+---
+
+### مرحله بعد (Commit 0004)
+
+فقط فایل زیر تولید خواهد شد:
+
+```text
+Pfm-enterprise/docs/02_Business_Requirements.md
+```
+
+این فایل به‌صورت حرفه‌ای شامل **تمام نیازمندی‌های کسب‌وکار** (Business Requirements Specification - BRS) خواهد بود و حدود **۵۰ تا ۷۰ بخش** را پوشش می‌دهد. تا تکمیل آن وارد فایل بعدی نخواهیم شد.
+
+
+@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@
