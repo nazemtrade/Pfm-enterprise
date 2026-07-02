@@ -229,4 +229,373 @@ API
 ### پیشنهاد تکمیلی
 
 من پیشنهاد می‌کنم در مخزن GitHub برای پروژه یک پوشه به نام **`releases/`** هم ایجاد کنی. در پایان هر فاز، نسخه ZIP همان فاز را داخل آن قرار دهی. این کار باعث می‌شود همیشه بتوانی به نسخه‌های قبلی برگردی و تاریخچه پروژه حفظ شود. این دقیقاً همان روشی است که تیم‌های حرفه‌ای توسعه نرم‌افزار از آن استفاده می‌کنند.
+******************************
+خوب، از این لحظه فقط **فایل شماره ۱** را تولید می‌کنیم و تا کامل نشود وارد فایل بعدی نمی‌شویم.
 
+---
+
+# Commit 0001
+
+## فایل شماره ۱
+
+**مسیر فایل**
+
+```text
+Pfm-enterprise/README.md
+```
+
+---
+
+### محتوای کامل فایل `README.md`
+
+```markdown
+# 🌸 PaperFlower ERP
+
+## Version
+
+0.1.0
+
+---
+
+## Project Name
+
+PaperFlower ERP
+
+---
+
+## Repository
+
+Pfm-enterprise
+
+---
+
+## Project Type
+
+Enterprise Resource Planning (ERP)
+
+---
+
+## Project Goal
+
+Design and develop a complete ERP system for manufacturing, inventory management, sales, accounting, customer relationship management (CRM), export management, and business intelligence for a paper flower manufacturing company.
+
+The system is designed as a Progressive Web Application (PWA), allowing installation and execution on Android mobile phones, tablets, laptops, and desktop computers through a web browser.
+
+---
+
+# Main Modules
+
+## Authentication
+
+- Login
+- Logout
+- User Management
+- Roles
+- Permissions
+
+---
+
+## Dashboard
+
+- Today's Sales
+- Monthly Sales
+- Orders
+- Inventory Status
+- Production Status
+- Financial Summary
+- Notifications
+
+---
+
+## Products
+
+- Categories
+- Products
+- Product Images
+- Pricing
+- Barcode
+- QR Code
+
+---
+
+## Customers
+
+- Retail Customers
+- Wholesale Customers
+- VIP Customers
+- Customer History
+
+---
+
+## Sales
+
+- Quotations
+- Orders
+- Invoices
+- Payments
+- Shipping
+
+---
+
+## Inventory
+
+- Warehouses
+- Stock
+- Materials
+- Finished Goods
+- Stock Movements
+
+---
+
+## Production
+
+- Production Orders
+- Material Consumption
+- Employees
+- Production Cost
+- Waste Management
+
+---
+
+## Accounting
+
+- Income
+- Expenses
+- Payroll
+- Profit
+- Taxes
+
+---
+
+## Reports
+
+- Daily Reports
+- Weekly Reports
+- Monthly Reports
+- Annual Reports
+- Inventory Reports
+- Production Reports
+- Financial Reports
+
+---
+
+## Export
+
+- International Customers
+- Shipping Companies
+- Customs Information
+- Tracking
+
+---
+
+## Artificial Intelligence
+
+- Sales Forecast
+- Demand Prediction
+- Inventory Forecast
+- Pricing Suggestions
+- Business Analysis
+
+---
+
+# Technology Stack
+
+## Backend
+
+Laravel 12
+
+PHP 8.x
+
+REST API
+
+---
+
+## Database
+
+PostgreSQL
+
+UTF-8 Encoding
+
+---
+
+## Frontend
+
+HTML5
+
+CSS3
+
+Bootstrap RTL
+
+JavaScript
+
+PWA
+
+---
+
+## Mobile
+
+Progressive Web Application
+
+Android Ready
+
+Offline Mode
+
+Push Notifications
+
+---
+
+## Version Control
+
+Git
+
+GitHub
+
+---
+
+# Project Structure
+
+Pfm-enterprise/
+
+docs/
+
+database/
+
+backend/
+
+frontend/
+
+api/
+
+mobile/
+
+reports/
+
+ai/
+
+---
+
+# Development Method
+
+Agile Scrum
+
+Sprint Based
+
+Git Version Control
+
+Continuous Development
+
+---
+
+# Coding Standards
+
+PSR Standards
+
+RESTful API
+
+MVC Architecture
+
+Repository Pattern
+
+SOLID Principles
+
+---
+
+# Security
+
+Role Based Access Control (RBAC)
+
+JWT Authentication
+
+Password Hashing
+
+CSRF Protection
+
+Input Validation
+
+Audit Log
+
+---
+
+# Languages
+
+Persian (RTL)
+
+English (LTR)
+
+---
+
+# Currency
+
+IRR
+
+USD
+
+EUR
+
+AED
+
+---
+
+# Time Zone
+
+Asia/Tehran
+
+UTC
+
+---
+
+# Future Versions
+
+Version 0.2
+
+Database Design
+
+Version 0.3
+
+Frontend UI
+
+Version 0.4
+
+Backend Development
+
+Version 0.5
+
+Dashboard
+
+Version 0.6
+
+Inventory
+
+Version 0.7
+
+Production
+
+Version 0.8
+
+Accounting
+
+Version 0.9
+
+Artificial Intelligence
+
+Version 1.0
+
+Stable Release
+
+---
+
+# Copyright
+
+Copyright © NazemTrade
+
+All Rights Reserved.
+
+Private Enterprise Project
+```
+
+---
+
+این **اولین فایل پروژه** است و باید با نام **`README.md`** در ریشه مخزن `Pfm-enterprise` قرار گیرد.
+
+در مرحله بعد، فقط اولین زیرمجموعه آن (**پوشه `docs` و فایل‌های داخل آن**) تولید خواهد شد و تا تکمیل آن وارد هیچ بخش دیگری از پروژه نخواهیم شد.
+////////////*********////////////
